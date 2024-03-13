@@ -42,5 +42,5 @@ Contributions are what make the open-source community such an amazing place to l
 
 ## Contact
 
-Name: Vivek Kumar
-For collaboration: dev.vivekkr30@gmail.com
+- Name: Vivek Kumar
+- For collaboration: dev.vivekkr30@gmail.com
