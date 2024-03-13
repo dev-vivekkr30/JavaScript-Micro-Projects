@@ -13,7 +13,7 @@ Here's a sneak peek at some of the projects you'll find here:
 - **Form Validation**: A registration for with validation of required fields.
 - **Guess My Number Game**: Check your guessing ability with this fun game of guessing numbers.
 
-## Skills Demonstrated
+## 🛠 Skills Demonstrated
 
 - DOM Manipulation
 - Event Handling
@@ -21,7 +21,7 @@ Here's a sneak peek at some of the projects you'll find here:
 - Responsive Design
 - Object-Oriented Programming
 
-## Getting Started
+## ✈️ Getting Started
 
 To get started with these projects, simply clone the repository and navigate to the project of your interest:
 
@@ -30,7 +30,7 @@ git clone https://github.com/dev-vivekkr30/JavaScript-Micro-Projects
 cd JavaScript-Micro-Projects/project_name
 
 ```
-## Contributing
+## ➕ Contributing
 
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
@@ -40,7 +40,7 @@ Contributions are what make the open-source community such an amazing place to l
 - Push to the Branch (git push origin feature/AmazingFeature)
 - Open a Pull Request
 
-## Contact
+## 📧 Contact
 
 - Name: Vivek Kumar
 - For collaboration: dev.vivekkr30@gmail.com
