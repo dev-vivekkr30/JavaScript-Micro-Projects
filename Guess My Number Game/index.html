@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <title>Guess My Number Game</title>
+
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body> 
+<!-- Top - bar -->
+    <div class="top-bar">
+        <button class="main-btn again">Again!</button>
+        <p>< Between 1 and 20 ></p>
+    </div>
+<!-- Game Title -->
+    <h1 class="game-title">Guess My Number</h1>
+
+    <div class="line">
+        <p class="secret_number">?</p>
+    </div>
+
+<!-- Playground -->
+    <div class="playground">
+            <input type="number" name="number" id="user_number">
+            <button class="main-btn check">Check!</button>
+    </div>
+
+<!-- User Score Sectio -->
+    <div class="score-section">
+        <p class="message">Start Guessing...</p>
+
+        <div class="score">
+            <p>💯 Your Score: <span class="current_score">20</span></p>
+            <p>🏆 High Score: <span class="high_score">0</span></p>
+        </div>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="main.js"></script>
+</body>
+</html>
