@@ -12,6 +12,7 @@ Here's a sneak peek at some of the projects you'll find here:
 
 - **Form Validation**: A registration for with validation of required fields.
 - **Guess My Number Game**: Check your guessing ability with this fun game of guessing numbers.
+- **Weather App**: Enter you desired place and get the temperature and other deatils about your place. I'm using OpenWeatherMap API here.
 
 ## 🛠 Skills Demonstrated
 
