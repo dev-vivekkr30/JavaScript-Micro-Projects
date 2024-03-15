@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.app-body{
+    padding: 54px 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: #222;
+    font-family: "Inter", sans-serif ;
+    color: #ffffff;
+}
+.wrapper{
+    padding: 64px 0px;
+}
+
+h4{
+    color: #ffe669;
+    font-weight: 200;
+}
+
+.form-control, .form-select, .submit-btn{
+    height: 52px;
+}
+
+.submit-btn{
+    background-color: #ffe669  ;
+    color: #222 ;
+    font-size: 20px ;
+    font-weight: 600 ;
+}
+
+.submit-btn:hover{
+    background-color: #ffe254  ;
+}
+.error-msg{
+    padding-top: 4px;
+    color: rgb(251, 132, 132);
+    display: none;
+}
+
+.error{
+    border: 2px solid rgb(255, 105, 105) !important;
+    background-color: rgb(255, 240, 240);
+    transition: all 0.75s;
+}
+
+.result-card{
+    background-color:#ffffff12 ;
+    border: 1px solid #ffffff44 ;
+    text-align: center;
+    display: none;
+    
+}
+
+.result-card .card-body{
+    padding: 24px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.result-card .card-body p .converted-amount, .cc-code{
+    color: #ffe669;
+}
+
+
+/* CSS Loader */
+      
+.circle-loader {
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    display: none;
+
+}
+
+.circle-loader div {
+    height: 10px;
+    width: 10px;
+    background-color: #dfdfdf;
+    border-radius: 50%;
+    position: absolute;
+    -webkit-animation: 1.3s opaque ease-in-out infinite both;
+    animation: 1.3s opaque ease-in-out infinite both;
+}
+
+.circle-loader > div:nth-child(1) {
+    top: -25px;
+    left: 0;
+}
+
+.circle-loader > div:nth-child(2) {
+    top: -17px;
+    left: 17px;
+    -webkit-animation-delay: .15s;
+    animation-delay: .15s;
+}
+
+.circle-loader > div:nth-child(3) {
+    top: 0;
+    left: 25px;
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+
+.circle-loader > div:nth-child(4) {
+    top: 17px;
+    left: 17px;
+    -webkit-animation-delay: 0.45s;
+    animation-delay: 0.45s;
+}
+
+.circle-loader > div:nth-child(5) {
+    top: 25px;
+    left: 0;
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+
+.circle-loader > div:nth-child(6) {
+    top: 17px;
+    left: -17px;
+    -webkit-animation-delay: 0.75s;
+    animation-delay: 0.75s;
+}
+
+.circle-loader > div:nth-child(7) {
+    top: 0;
+    left: -25px;
+    -webkit-animation-delay: .9s;
+    animation-delay: .9s;
+}
+
+.circle-loader > div:nth-child(8) {
+    top: -17px;
+    left: -17px;
+    -webkit-animation-delay: 1.05s;
+    animation-delay: 1.05s;
+}
+
+@-webkit-keyframes opaque {
+    0%, 40%, 100% {
+      opacity: 0.1;
+    }
+    40% {
+      opacity: 1;
+    }
+}
+
+@keyframes opaque {
+    0%, 40%, 100% {
+      opacity: 0.1;
+    }
+    40% {
+      opacity: 1;
+    }
+}
+
+@keyframes scaleDown{
+    0%, 80%, 100%{
+      -webkit-transform: scale(0);
+              transform: scale(0);
+    }
+    40%{
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+}
