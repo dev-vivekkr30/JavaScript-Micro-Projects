@@ -10,9 +10,10 @@ In this repository, you'll find a variety of micro projects ranging from simple 
 
 Here's a sneak peek at some of the projects you'll find here:
 
-- **Form Validation**: A registration for with validation of required fields.
-- **Guess My Number Game**: Check your guessing ability with this fun game of guessing numbers.
-- **Weather App**: Enter you desired place and get the temperature and other deatils about your place. I'm using OpenWeatherMap API here.
+- **Form Validation**: Validate user input with ease.
+- **Guess My Number Game**: Test your guessing skills with this interactive game.
+- **Weather App**: Stay updated with real-time weather information using OpenWeatherMap API.
+- **Currency Converter App**: Convert currencies effortlessly with this handy tool, powered by currencyapi.
 
 ## 🛠 Skills Demonstrated
 
