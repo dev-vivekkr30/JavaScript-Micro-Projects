@@ -108,3 +108,31 @@
     margin: 0;
     font-weight: 500;
 }
+.forecast-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.forecast-section .forcard-card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #e5e5e582; 
+    align-items: center;
+    background-color:#ffffff69;
+    padding: 24px;
+    margin: 24px 12px;
+    border-radius: 12px;
+}
+.forecast-section .forcard-card h4, .forecast-section .forcard-card p{
+    margin: 0;
+}
+.forecast-section .forcard-card p{
+    color: #575757;
+}
+
+.forecast-section .forcard-card .forcast-icon{
+    max-width: 32px;
+}
