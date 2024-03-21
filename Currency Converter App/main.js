@@ -37,11 +37,7 @@ const getconvertAmount = async ()=> {
             const currencyData = await response.json();
             for(let key of Object.keys(currencyData["data"])){
                 if(currencyData.data[key].code === currencyTo.value){
-
-                    // console.log(currencyData.data[key].code," = ",currencyData.data[key].value);
-                    // console.log("Converted Value: ",currencyData.data[key].code," = ",currencyData.data[key].value*parseFloat(inputAmount.value));
                     
-                    // Updating input-amount & currency_code based on user input
                     resultCard.style.display = 'block';
                     userAmount.innerHTML = inputAmount.value + " ";
                     usercCode.innerHTML = currencyFrom.value;

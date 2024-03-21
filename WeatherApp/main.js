@@ -74,7 +74,7 @@ function getData() {
             console.log(forecastData);
 
 
-            for (let key of Object.keys(forecastData.list)) {
+            for (let key of Object.keys(forecastData.list).slice(0,7)) {
                 console.log(forecastData.list[key].main.temp)
                 console.log(forecastData.list[key].weather[0].main)
                 forecastTemp[key].innerHTML = forecastData.list[key].main.temp;
