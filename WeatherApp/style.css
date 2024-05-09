@@ -116,7 +116,7 @@
     align-items: center;
 }
 .forecast-section .forcard-card{
-    width: 100%;
+    width: 106px;
     display: flex;
     flex-direction: column;
     justify-content: center;
