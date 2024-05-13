@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-color: #0147FF;
+    --secondary-color: #1e1e1e;
+    --white-color: #fcfcfc;
+    --main-font:"Mulish", sans-serif;
+}
+
+.wrapper{
+    padding: 42px 0px;
+}
+
+.main-btn{
+    font-family: var(--main-font);
+    font-size: 18px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 12px 24px;
+    border:1px solid var(--primary-color);
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.hero-section{
+    height: 100vh;
+    background-image: url('../images/hero-bg.svg');
+    background-repeat: repeat;
+}
+
+.hero-section .side-img{
+    max-width: 512px;
+}
+
+.hero-section .hero-content{
+    font-family: var(--main-font);
+    color: var(--secondary-color) !important;
+}
+.hero-section .hero-content h1{
+    font-size: 64px;
+}
+
+.sign-app{
+    height: 100vh;
+}
