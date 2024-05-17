@@ -43,3 +43,11 @@
 .sign-app{
     height: 100vh;
 }
+
+.color-section{
+    font-family: var(--main-font);
+}
+
+.color-section .form-control{
+    height: 38px;
+}

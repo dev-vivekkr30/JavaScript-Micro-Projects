@@ -17,7 +17,8 @@
         <div class="container hero-content d-flex flex-column justify-content-center align-items-center">
             <p class="fs-5">🤘Your Signature App</p>
             <h1 class="fw-bold">Signeasy</h1>
-            <p class="mb-4 fs-4 text-center">Create your electronic signature instantly with this free electronic signature
+            <p class="mb-4 fs-4 text-center">Create your electronic signature instantly with this free electronic
+                signature
                 maker. Signing online
                 could not have been easier.</p>
             <a href="#signeasy-app" class="main-btn">Create Your Signature</a>
@@ -25,9 +26,35 @@
     </div>
     <!-- App Section -->
 
-    <div class="container sign-app" id="signeasy-app">
-        <div class="color-section">
-            
+    <div class="container wrapper sign-app" id="signeasy-app">
+        <div class="color-section row">
+            <div class="col-md-4">
+                <div class="mb-3">
+                    <label for="stroke-color-label" class="form-label">Stroke Color: <span
+                            class="color-value fw-bold ms-2" style="letter-spacing: 2px;">#fffff</span></label>
+                    <input type="color" class="form-control p-1 rounded" id="stroke-color">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="mb-3">
+                    <label for="stroke-color-label" class="form-label">Background Color: <span
+                            class="color-value fw-bold ms-2" style="letter-spacing: 2px;">#fffff</span></label>
+                    <input type="color" class="form-control p-1 rounded" id="stroke-color">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="mb-3">
+                    <label for="stroke-color-label" class="form-label">Stroke Size:</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Select</option>
+                        <option value="5">5px</option>
+                        <option value="10">10px</option>
+                        <option value="15">15px</option>
+                        <option value="20">20px</option>
+                        <option value="30">25px</option>
+                      </select>
+                </div>
+            </div>
         </div>
     </div>
 
