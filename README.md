@@ -14,6 +14,8 @@ Here's a sneak peek at some of the projects you'll find here:
 - **Guess My Number Game**: Test your guessing skills with this interactive game.
 - **Weather App**: Stay updated with real-time weather information using OpenWeatherMap API.
 - **Currency Converter App**: Convert currencies effortlessly with this handy tool, powered by currencyapi.
+- **Card Game**: An interacting number guessing game for funtime.
+- **Signeasy Signature App**: Draw and save your signature with a few clicks of a button.
 
 ## 🛠 Skills Demonstrated
 
@@ -34,11 +36,11 @@ cd JavaScript-Micro-Projects/project_name
 ```
 ## ➕ Contributing
 
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+Contributions make the open-source community an amazing place to learn, inspire, and create. I would greatly appreciate any contributions you make.
 
 - Fork the Project
 - Create your Feature Branch (git checkout -b feature/AmazingFeature)
-- Commit your Changes (git commit -m 'Add some AmazingFeature')
+- Commit your changes (git commit -m 'Add some AmazingFeature')
 - Push to the Branch (git push origin feature/AmazingFeature)
 - Open a Pull Request
 
